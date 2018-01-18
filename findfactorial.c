@@ -6,7 +6,7 @@ int factorial (int num);
 //============================
 int main()
 {
-    	unsigned int Num1, tmp;
+    	int Num1, tmp;
 
     	printf("ENTER the Nuber its factorial you want : ");
     	scanf("%d",&Num1);
@@ -20,7 +20,7 @@ int main()
 }
 //==========================
 int factorial(int num){
-	 unsigned int  retfactorial=1;
+	int  retfactorial=1;
 	while (num>0)
     	{
         	retfactorial *= num;
