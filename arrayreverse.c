@@ -1,5 +1,7 @@
 #include <stdio.h>
+
 #define ARRAY_SIZE 10
+
 void reverse(int Array[ARRAY_SIZE]);
 
 int main()
@@ -31,6 +33,7 @@ int main()
 	return 0;
 }
 //==========================
+
 void reverse(int Array[ARRAY_SIZE]){
 	int temp,i;
 	for ( i=0; i<(ARRAY_SIZE/2) ; i++)
